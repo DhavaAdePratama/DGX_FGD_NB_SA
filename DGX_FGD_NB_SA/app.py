@@ -62,8 +62,8 @@ def preprocess(text):
 
 
 # --- Load model & vectorizer ---
-model = joblib.load(r"c:\PYTHON\DGX_FGD_NB_SA\model\naive_bayes_model.pkl")
-vectorizer = joblib.load(r"c:\PYTHON\DGX_FGD_NB_SA\model\vectorizer.pkl")
+model = joblib.load(r"c:/PYTHON\DGX_FGD_NB_SA/model/naive_bayes_model.pkl")
+vectorizer = joblib.load(r"c:/PYTHON/DGX_FGD_NB_SA/model/vectorizer.pkl")
 
 # --- Streamlit UI ---
 st.title("📊 Sentiment Analysis App - Naive Bayes")
